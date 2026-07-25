@@ -11,3 +11,5 @@ My very first Python project! A text-based survival game where you manage resour
 1. Make sure you have Python installed on your computer.
 2. Download or clone this repository.
 3. Run the script in your terminal:
+```bash
+   python "Survival Game.py"
