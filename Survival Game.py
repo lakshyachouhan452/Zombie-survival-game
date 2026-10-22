@@ -122,11 +122,11 @@ while p1.milesleft>0 and p1.hp>0:
     
     event=random.randint(1,10)
     if event in (1,2,3,4):
-        p1.ZombieRaid()
+        p1.ZombieRaid()# chances of happening is 40 percent.
     elif event in (5,6,7):
-        p1.Scavenge()
+        p1.Scavenge()  # Chances of happening is 30 percent.
     else:
-        p1.safe()
+        p1.safe()      #Chances of happening is 30 percent.
     if p1.food<=0:
         p1.hp-=10
     print()
